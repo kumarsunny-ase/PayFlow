@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/">
+    <Project Path="src/backend/PayFlow.Api/PayFlow.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Modules/" />
+  <Folder Name="/src/backend/Modules/Audit/">
+    <Project Path="src/backend/Modules/Audit/PayFlow.Modules.Audit.Application/PayFlow.Modules.Audit.Application.csproj" />
+    <Project Path="src/backend/Modules/Audit/PayFlow.Modules.Audit.Domain/PayFlow.Modules.Audit.Domain.csproj" />
+    <Project Path="src/backend/Modules/Audit/PayFlow.Modules.Audit.Infrastructure/PayFlow.Modules.Audit.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Modules/Merchants/">
+    <Project Path="src/backend/Modules/Merchants/PayFlow.Modules.Merchants.Application/PayFlow.Modules.Merchants.Application.csproj" />
+    <Project Path="src/backend/Modules/Merchants/PayFlow.Modules.Merchants.Domain/PayFlow.Modules.Merchants.Domain.csproj" />
+    <Project Path="src/backend/Modules/Merchants/PayFlow.Modules.Merchants.Infrastructure/PayFlow.Modules.Merchants.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Modules/Payments/">
+    <Project Path="src/backend/Modules/Payments/PayFlow.Modules.Payments.Application/PayFlow.Modules.Payments.Application.csproj" />
+    <Project Path="src/backend/Modules/Payments/PayFlow.Modules.Payments.Domain/PayFlow.Modules.Payments.Domain.csproj" />
+    <Project Path="src/backend/Modules/Payments/PayFlow.Modules.Payments.Infrastructure/PayFlow.Modules.Payments.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Shared/">
+    <Project Path="src/backend/Shared/PayFlow.SharedKernel/PayFlow.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PayFlow.Api.IntegrationTests/PayFlow.Api.IntegrationTests.csproj" />
+    <Project Path="tests/PayFlow.Modules.Payments.UnitTests/PayFlow.Modules.Payments.UnitTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Payments\PayFlow.Modules.Payments.Infrastructure\PayFlow.Modules.Payments.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Merchants\PayFlow.Modules.Merchants.Infrastructure\PayFlow.Modules.Merchants.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Audit\PayFlow.Modules.Audit.Infrastructure\PayFlow.Modules.Audit.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
