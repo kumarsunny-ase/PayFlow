@@ -4,6 +4,10 @@
     <ProjectReference Include="..\PayFlow.Modules.Payments.Domain\PayFlow.Modules.Payments.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include="..\Application\**\*.cs" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

@@ -5,9 +5,9 @@ services:
     container_name: payflow-sql
     environment:
       ACCEPT_EULA: "Y"
-      MSSQL_SA_PASSWORD: ${SA_PASSWORD}
+      MSSQL_SA_PASSWORD: ${SA_PASSWORD:?Set SA_PASSWORD in the root .env file}
     ports:
-      - "1433:1433"
+      - "1434:1433"
     volumes:
       - sqldata:/var/opt/mssql
 
